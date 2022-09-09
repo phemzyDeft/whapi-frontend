@@ -1,0 +1,9 @@
+
+.home-about-left img{
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.home-about-left img:hover{
+    transform: scale(1.1);
+}

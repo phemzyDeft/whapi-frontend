@@ -1,0 +1,25 @@
+
+.single-feature{
+    background: url('/src/assets/undraw_connection_re_lcud.svg') no-repeat center center;
+    color: var(--primary-color);
+    transition: .7s ease-in;
+    cursor: pointer;
+}
+
+.single-feature:hover{
+    background: var(--primary-color);
+    color: var(--text-color);
+    transform: scale(.9);
+}
+
+.single-feature .icon{
+    font-size: 4rem;
+}
+
+.single-feature p{
+    font-size: .8rem;
+}
+
+.feature-container{
+    padding: 2rem;
+}
