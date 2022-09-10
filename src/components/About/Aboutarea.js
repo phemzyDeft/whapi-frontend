@@ -8,18 +8,18 @@ function Aboutarea(props) {
     <section class="about-area">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-5 col-12 col-md-6 home-about-left">
+        <div class="col-lg-5 col-12 col-md-6 home-about-left mt-5 pt-5">
           <img class="img-fluid" src={reach} alt=""/>
         </div>
-        <div class=".offset-lg-1 col-lg-7 col-md-6 col-12 home-about-right">
+        <div class="offset-lg-1 col-lg-6 col-md-6 col-12 home-about-right mt-5 pt-5">
           <h1>Reach Further</h1>
           <p>By creating a presence on WhatsApp, you can connect and build personal relationships with your customers. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, deleniti dicta!</p>
         </div>
-        <div class="col-lg-7 col-12 col-md-6 home-about-right home-about-right2">
+        <div class="col-lg-6 col-12 col-md-6 home-about-right home-about-right2 mt-5 pt-5">
           <h1>Increase loyalty</h1>
-          <p>Drive better, more personalized experiences that delight customers. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio accusantium, ab voluptates voluptas aperiam unde cupiditate nesciunt dolores harum excepturi.</p>
+          <p>By creating a presence on WhatsApp, you can connect and build personal relationships with your customers. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, deleniti dicta!</p>
         </div>
-        <div class="col-lg-5 col-12 col-md-6 home-about-left">
+        <div class="offset-lg-1 col-lg-5 col-12 col-md-6 home-about-left mt-5 pt-5">
           <img class="img-fluid" src={increase} alt="" />
         </div>
       </div>

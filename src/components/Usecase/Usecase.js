@@ -10,15 +10,15 @@ function Usecase(props) {
     <div class="container">
       <div class="row d-flex justify-content-center">
         <div class="col-lg-6">
-          <div class="section-title text-center">
-            <h2>Usecase</h2>
+          <div class="section-title text-center py-5">
+            <h2>Usecases</h2>
             {/* <p>It's easier than you think</p> */}
           </div>
         </div>
       </div>
       <div class="row">
         <div class="feature-container col-lg-4 col-md-4 col-12">
-          <div class="px-md-1 single-feature py-5 px-5 text-center rounded-3">
+          <div class="single-feature py-5 px-5 text-center rounded-3">
             <RiChatSmile2Line className='icon pb-3'/>
             <h3>Chatbot</h3>
             <p>
@@ -27,7 +27,7 @@ function Usecase(props) {
           </div>
         </div>
         <div class="feature-container col-lg-4 col-md-4 col-12">
-          <div class="px-md-1 single-feature py-5 px-5 text-center rounded-3">
+          <div class="single-feature py-5 px-5 text-center rounded-3">
             <AiOutlineUsergroupAdd className='icon pb-3'/>
             <h3>Chatbot</h3>
             <p>
@@ -36,7 +36,7 @@ function Usecase(props) {
           </div>
         </div>
         <div class="feature-container col-lg-4 col-md-4 col-12">
-          <div class="px-md-1 single-feature py-5 px-5 text-center rounded-3">
+          <div class="single-feature py-5 px-5 text-center rounded-3">
             <BsShieldLock className='icon pb-3'/>
             <h3>Chatbot</h3>
             <p>

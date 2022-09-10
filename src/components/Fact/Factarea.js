@@ -5,7 +5,7 @@ function Factarea(props) {
     <section class="fact-area">
     <div class="container">
       <div class="fact-box">
-        <div class="row align-items-center">
+        <div class="row align-items-center bg-light py-3">
           <div class="py-4 col-12 col-md-4 col-lg-4 single-fact text-center">
             <h4>Over 1.5 billion<br />users</h4>
           </div>
