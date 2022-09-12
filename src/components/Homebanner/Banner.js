@@ -6,7 +6,7 @@ import hero2 from '../../assets/undraw_connection_re_lcud.svg';
 
 function Banner(props) {
   return (
-    <section name='top' class="home-banner-area mt-5 pt-5">
+    <section name='top' class="home-banner-area mt-5 pt-5" id="home">
     <div class="container">
       <div class="row fullscreen d-flex align-items-center justify-content-between">
         <div className="col-12 col-md-6 col-lg-6">

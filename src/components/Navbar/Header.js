@@ -4,7 +4,7 @@ import './Header.css';
 
 function Header(props) {
   return (
-  <nav class="navbar navbar-expand-lg fixed-top py-2" style={{background: "var(--primary-color)"}} id="home">
+  <nav class="navbar navbar-expand-lg fixed-top py-2" style={{background: "var(--primary-color)"}}>
     <div class="container nav-section">
       <div className="logo col-lg-2">
         <MdOutlineWhatshot className='icon'/>
