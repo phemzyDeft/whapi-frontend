@@ -4,7 +4,7 @@ import './Header.css';
 
 function Header(props) {
   return (
-  <nav class="navbar navbar-expand-lg fixed-top py-2" style={{background: "var(--primary-color)"}}>
+  <nav class="navbar navbar-expand-lg fixed-top py-2" style={{background: "var(--primary-color)"}} id="home">
     <div class="container nav-section">
       <div className="logo col-lg-2">
         <MdOutlineWhatshot className='icon'/>
@@ -17,13 +17,13 @@ function Header(props) {
       <div class="collapse navbar-collapse col-lg-4" id="navbarSupportedContent">
         <ul class="navbar-nav" style={{fontSize: ".8rem"}}>
           <li class="nav-item">
-            <a class="nav-link active" href="#" style={{color: "var(--text-color)"}} aria-current="page">Home</a>
+            <a class="nav-link active" href="#home" style={{color: "var(--text-color)"}} aria-current="page">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" style={{color: "var(--text-color)"}} href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style={{color: "var(--text-color)"}} href="#">Document</a>
+            <a class="nav-link" style={{color: "var(--text-color)"}} href="#home">Document</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" style={{color: "var(--text-color)"}} href="#usecases">Usecases</a>
