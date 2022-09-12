@@ -5,10 +5,11 @@
     padding: 1rem;
   }
   
-  .footer .top .logo-footer{
+  .footer .top .logo{
     display: flex;
     align-items: center;
     cursor: pointer;
+    justify-content: center;
   }
   
   .footer .top .icon{

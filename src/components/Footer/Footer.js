@@ -14,9 +14,9 @@ function Footer(props) {
         <div className='footer text-white py-5' style={{background: "var(--primary-color)"}}>
             <div className="container-fluid">
                   <div className=".row top">
-                    <div className="logo-footer ">
+                    <div className="logo">
                     <MdOutlineWhatshot  className='icon'/>
-                      <h2>Whapi</h2>
+                      <h2 className='pt-1'>Whapi</h2>
                     </div>
                     {/* <div className="offset-lg-2"></div> */}
                     <Link activeClass="active" to="top" spy={true} smooth={true} duration={500}>

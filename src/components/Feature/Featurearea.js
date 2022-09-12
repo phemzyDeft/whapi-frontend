@@ -10,7 +10,7 @@ function Featurearea(props) {
     <div class="container">
       <div class="row d-flex justify-content-center">
         <div class="col-lg-6">
-          <div class="section-title text-center my-5">
+          <div class="section-title text-center my-5 pt-5">
             <h2>Unique Features</h2>
           </div>
         </div>
@@ -19,27 +19,26 @@ function Featurearea(props) {
         <div class="feature-container col-lg-4 col-md-4 col-12 ">
           <div class="single-feature py-5 px-5 text-center rounded-3">
             <TbFeatherOff className='icon pb-3'/>
-            <h4>Simple integration</h4>
+            <h4>Simple Integration</h4>
             <p>
-              Easily send WhatsApp messages without having to manage hosting, scaling or constant software updates.
-            </p>
+            Easily send WhatsApp messages without having to manage hosting, scaling or constant software updates.            </p>
           </div>
         </div>
         <div class="feature-container col-lg-4 col-md-4 col-12">
           <div class="single-feature py-5 px-5 text-center rounded-3">
             <MdOutlineAcUnit className='icon pb-3'/>
-            <h4>Simple integration</h4>
+            <h4>Quick Connect</h4>
             <p>
-              Easily send WhatsApp messages without having to manage hosting, scaling or constant software updates.
+              No need to wait for account moderation. Start now!            
             </p>
           </div>
         </div>
         <div class="feature-container col-lg-4 col-md-4 col-12">
           <div class="single-feature py-5 px-5 text-center rounded-3">
             <GiSatelliteCommunication className='icon pb-3'/>
-            <h4>Simple integration</h4>
+            <h4>Rich Messaging</h4>
             <p>
-              Easily send WhatsApp messages without having to manage hosting, scaling or constant software updates.
+              Send and receive texts, images, files, locations, videos, weblinks, and more with your users on WhatsApp            
             </p>
           </div>
         </div>
