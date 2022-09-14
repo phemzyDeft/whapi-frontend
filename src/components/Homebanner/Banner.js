@@ -1,8 +1,6 @@
 import React from 'react';
 import './Banner.css'
-// import hero from '../../assets/undraw_unboxing_pbmf.svg';
-import hero2 from '../../assets/undraw_connection_re_lcud.svg';
-// import hero3 from '../../assets/undraw_connected_world_wuay.png'
+import hero from '../../assets/undraw_connection_re_lcud.svg';
 
 function Banner(props) {
   return (
@@ -23,7 +21,7 @@ function Banner(props) {
           
         <div className="col-12 col-md-6 col-lg-6">
           <div className="container-img py-5">
-            <img src={hero2} alt="" className='img-fluid'/>
+            <img src={hero} alt="" className='img-fluid'/>
           </div>            
         </div>
 

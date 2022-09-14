@@ -48,7 +48,7 @@ function Footer(props) {
                     <form action="/" autoComplete='off' className='col-12 col-lg-3 col-md-6 py-2'>
                         <h3 style={{fontSize: "20px"}}>Join Our Team</h3>
                         <input type="email" name="email" id="" placeholder='input email' />
-                        <FiSend className="mail" style={{color: "blue"}}/>
+                        <FiSend className="mail" style={{color: "var(--primary-color)"}}/>
 
                         <div className="social-group">
                             <TiSocialTwitter className='social-icon'/>

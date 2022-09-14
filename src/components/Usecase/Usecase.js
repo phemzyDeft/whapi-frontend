@@ -12,7 +12,6 @@ function Usecase(props) {
         <div class="col-lg-6 pt-5">
           <div class="section-title text-center py-5">
             <h2>Usecases</h2>
-            {/* <p>It's easier than you think</p> */}
           </div>
         </div>
       </div>

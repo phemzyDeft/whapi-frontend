@@ -1,0 +1,9 @@
+.img-fluid{
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.img-fluid:hover{
+    transform: scale(1.1);
+
+}
