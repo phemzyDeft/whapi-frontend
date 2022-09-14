@@ -56,6 +56,7 @@ function Footer(props) {
                             <TiSocialFacebook className='social-icon'/>
                             {/* <FiInstagram className='social-icon'/> */}
                             <IoLogoWhatsapp className='social-icon'/>
+                            <IoLogoWhatsapp className='social-icon'/>
                         </div>
                     </form>
                 </div>
