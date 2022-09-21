@@ -1,0 +1,25 @@
+#loginModal .form-group{
+    padding-bottom: 1rem;
+}
+#forgetPassword .form-group{
+    padding-bottom: 1rem;
+}
+
+.col-12{
+    padding-bottom: .5rem;
+}
+
+label{
+    font-size: 12px;
+}
+
+input::placeholder{
+    padding: 1rem 0;
+    font-size: 13px;
+}
+
+input:focus{
+    outline: none;
+    font-size: 13px;
+    border: 1px solid var(--primary-color);
+}

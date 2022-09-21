@@ -14,7 +14,7 @@ function Banner(props) {
             </h1>
             <p>Use our API to connect a bot, or team up with a trusted partner to develop the solution that suits you.</p>
             <div class="download-button">
-              <button type="button" class="btn text-white" style={{background: "var(--primary-color)", padding: ".6rem 1.5rem"}}>Sign Up</button>
+              <button data-bs-toggle="modal" data-bs-target="#registerModal" type="button" class="btn text-white signup-btn" style={{background: "var(--primary-color)", padding: ".6rem 1.5rem", textTransform: "uppercase"}}>Sign Up</button>
             </div>
           </div>            
         </div>

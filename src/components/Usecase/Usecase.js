@@ -11,7 +11,7 @@ function Usecase(props) {
       <div class="row d-flex justify-content-center">
         <div class="col-lg-6 pt-5">
           <div class="section-title text-center py-5">
-            <h2>Usecases</h2>
+            <h2>Use-cases</h2>
           </div>
         </div>
       </div>

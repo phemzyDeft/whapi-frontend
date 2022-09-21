@@ -7,3 +7,6 @@
     transform: scale(1.1);
 
 }
+.signup-btn:hover{
+    background: rgb(22, 35, 187) !important;
+}

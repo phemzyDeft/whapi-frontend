@@ -34,16 +34,16 @@ function Footer(props) {
                     <div className="col-12 col-lg-2 col-md-6 py-2">
                         <h3 style={{fontSize: "20px"}}>Navigation</h3>
                         <p><Tag to='/'>Home</Tag></p>
-                        <p><Tag to='/recovery'>Data</Tag></p>
-                        <p><Tag to='/cloud'>Cloud</Tag></p>
-                        <p><Tag to='/contact'>Contact</Tag></p>
+                        <p><Tag to='/'>Data</Tag></p>
+                        <p><Tag to='/'>API</Tag></p>
+                        <p><Tag to='/'>Contact</Tag></p>
                     </div>
                     <div className="col-12 col-lg-2 col-md-6 py-2">
                         <h3 style={{fontSize: "20px"}}>My Account</h3>
                         <p><Tag to='/'>Home</Tag></p>
-                        <p><Tag to='/recovery'>Data</Tag></p>
-                        <p><Tag to='/cloud'>Cloud</Tag></p>
-                        <p><Tag to='/contact'>Contact</Tag></p>
+                        <p><Tag to='/'>Data</Tag></p>
+                        <p><Tag to='/'>API</Tag></p>
+                        <p><Tag to='/'>Contact</Tag></p>
                     </div>
                     <form action="/" autoComplete='off' className='col-12 col-lg-3 col-md-6 py-2'>
                         <h3 style={{fontSize: "20px"}}>Join Our Team</h3>

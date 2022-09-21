@@ -23,10 +23,13 @@ function Header(props) {
             <a class="nav-link" style={{color: "var(--text-color)"}} href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style={{color: "var(--text-color)"}} href="#home">Document</a>
+            <a class="nav-link" style={{color: "var(--text-color)"}} href="#home">API</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" style={{color: "var(--text-color)"}} href="#usecases">Usecases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#loginModal" style={{color: "var(--text-color)"}} href="#usecases">Login</a>
           </li>
         </ul>
       </div>

@@ -1,5 +1,8 @@
 import React from 'react';
 import Aboutarea from './components/About/Aboutarea';
+import ForgetPassword from './components/Auth/ForgetPassword';
+import Login from './components/Auth/Login';
+import Register from './components/Auth/Register';
 import Factarea from './components/Fact/Factarea';
 import Featurearea from './components/Feature/Featurearea';
 import Footer from './components/Footer/Footer';
@@ -17,6 +20,9 @@ function App() {
       <Aboutarea />
       <Usecase />
       <Footer />
+      <Login />
+      <Register />
+      <ForgetPassword />
     </div>
   );
 }
