@@ -1,21 +1,25 @@
 
 .navbar .logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
   
-  .navbar .icon{
-    color: var(--text-color);
-    font-size: 2rem;
-    /* margin-right: .3rem; */
-  }
-  .navbar .icon:hover{
-    color: var(--text-color);
-  }
-  
-  .navbar h2{
-    font-size: 1.5rem;
-    color: var(--text-color);
-  }
+.navbar .icon{
+  color: var(--text-color);
+  font-size: 2rem;
+  margin-right: .3rem;
+}
+.navbar .icon:hover{
+  color: var(--text-color);
+}
+
+.navbar h2{
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+.navbar-nav .nav-item{
+  padding-right: 1rem;
+}

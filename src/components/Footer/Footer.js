@@ -16,7 +16,7 @@ function Footer(props) {
                   <div className=".row top">
                     <div className="logo">
                     <MdOutlineWhatshot  className='icon'/>
-                      <h2 className='pt-1'>Whapi</h2>
+                      <h2 className='pt-1'>SotaBot</h2>
                     </div>
                     {/* <div className="offset-lg-2"></div> */}
                     <Link activeClass="active" to="top" spy={true} smooth={true} duration={500}>
@@ -33,17 +33,17 @@ function Footer(props) {
                     </div>
                     <div className="col-12 col-lg-2 col-md-6 py-2">
                         <h3 style={{fontSize: "20px"}}>Navigation</h3>
-                        <p><Tag to='/'>Home</Tag></p>
-                        <p><Tag to='/'>Data</Tag></p>
-                        <p><Tag to='/'>API</Tag></p>
-                        <p><Tag to='/'>Contact</Tag></p>
+                        <p><Tag to='/' style={{color: "var(--text-color)", textDecoration: "none"}}>Home</Tag></p>
+                        <p><Tag to='/' style={{color: "var(--text-color)", textDecoration: "none"}}>Data</Tag></p>
+                        <p><Tag to='/' style={{color: "var(--text-color)", textDecoration: "none"}}>API</Tag></p>
+                        <p><Tag to='/' style={{color: "var(--text-color)", textDecoration: "none"}}>Contact</Tag></p>
                     </div>
                     <div className="col-12 col-lg-2 col-md-6 py-2">
                         <h3 style={{fontSize: "20px"}}>My Account</h3>
-                        <p><Tag to='/'>Home</Tag></p>
-                        <p><Tag to='/'>Data</Tag></p>
-                        <p><Tag to='/'>API</Tag></p>
-                        <p><Tag to='/'>Contact</Tag></p>
+                        <p><Tag to='/' style={{color: "var(--text-color)", textDecoration: "none"}}>Home</Tag></p>
+                        <p><Tag to='/' style={{color: "var(--text-color)", textDecoration: "none"}}>Data</Tag></p>
+                        <p><Tag to='/' style={{color: "var(--text-color)", textDecoration: "none"}}>API</Tag></p>
+                        <p><Tag to='/' style={{color: "var(--text-color)", textDecoration: "none"}}>Contact</Tag></p>
                     </div>
                     <form action="/" autoComplete='off' className='col-12 col-lg-3 col-md-6 py-2'>
                         <h3 style={{fontSize: "20px"}}>Join Our Team</h3>

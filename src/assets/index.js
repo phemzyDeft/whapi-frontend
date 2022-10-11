@@ -1,0 +1,1 @@
+export const user_favicon = require('../assets/user_favicon.png')

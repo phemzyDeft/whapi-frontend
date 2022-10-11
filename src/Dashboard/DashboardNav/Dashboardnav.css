@@ -1,0 +1,36 @@
+
+.dash-nav .search{
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+  padding: .5rem 1.5rem;
+}
+
+.dash-nav input{
+  border: none;
+  background: transparent;
+}
+
+.dash-nav .search-icon{
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.dashboard-content, .menu, .search{
+  padding-right: 3rem;
+}
+
+.navbar-user {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+.dropdown-item:hover{
+  background: var(--hover-color);
+  color: var(--primary-color);
+}
+
+.dropdown-item{
+  color: var(--primary-color);
+}

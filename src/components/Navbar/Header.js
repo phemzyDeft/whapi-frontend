@@ -1,6 +1,7 @@
 import React from 'react';
 import {MdOutlineWhatshot} from 'react-icons/md'
 import './Header.css';
+import {NavLink} from 'react-router-dom';
 
 function Header(props) {
   return (
@@ -8,7 +9,7 @@ function Header(props) {
     <div class="container nav-section">
       <div className="logo col-lg-2">
         <MdOutlineWhatshot className='icon'/>
-        <h2 className='pt-1'>Whapi</h2>
+        <h2 className='pt-1'>SotaBot</h2>
       </div>    
       <div className='offset-lg-7'></div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,19 +18,19 @@ function Header(props) {
       <div class="collapse navbar-collapse col-lg-4" id="navbarSupportedContent">
         <ul class="navbar-nav" style={{fontSize: ".8rem"}}>
           <li class="nav-item">
-            <a class="nav-link active" href="#home" style={{color: "var(--text-color)"}} aria-current="page">Home</a>
+            <NavLink class="nav-link" to={'/'} style={{color: "var(--text-color)", textDecoration: "none"}} aria-current="page">Home</NavLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style={{color: "var(--text-color)"}} href="#about">About</a>
+            <NavLink class="nav-link" style={{color: "var(--text-color)", textDecoration: "none"}} to={"/"}>About</NavLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style={{color: "var(--text-color)"}} href="#home">API</a>
+            <NavLink class="nav-link" style={{color: "var(--text-color)", textDecoration: "none"}} to={"/home"}>API</NavLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style={{color: "var(--text-color)"}} href="#usecases">Usecases</a>
+            <NavLink class="nav-link" style={{color: "var(--text-color)", textDecoration: "none"}} to={"/usecases"}>Usecases</NavLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#loginModal" style={{color: "var(--text-color)"}} href="#usecases">Login</a>
+            <NavLink class="nav-link" data-bs-toggle="modal" data-bs-target="#loginModal" style={{color: "var(--text-color)", textDecoration: "none"}} to={"/usecases"}>Login</NavLink>
           </li>
         </ul>
       </div>
