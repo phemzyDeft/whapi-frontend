@@ -22,7 +22,7 @@ function Footer(props) {
         <div className=".row top">
           <div className="logo">
             <MdOutlineWhatshot className="icon" />
-            <h2 className="pt-1">SotaBot</h2>
+            <h2 className="pt-2 text-white">SotaBot</h2>
           </div>
           {/* <div className="offset-lg-2"></div> */}
           <Link

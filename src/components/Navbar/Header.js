@@ -20,7 +20,7 @@ function Header(props) {
       <div class="container nav-section">
         <div className="logo col-lg-2">
           <MdOutlineWhatshot className="icon" />
-          <h2 className="pt-1">SotaBot</h2>
+          <h2 className="pt-2">SotaBot</h2>
         </div>
         <div className="offset-lg-7"></div>
         <button
