@@ -40,6 +40,7 @@
 .footer p{
     cursor: pointer;
     font-size: 12px;
+    font-weight: var(--fw-navbar);
   }
   
   .footer form{

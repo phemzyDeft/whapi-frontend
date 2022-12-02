@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
 :root{
   --primary-color: #006BFF;
   --text-color: rgba(255, 255, 255, 0.882);
   --hover-color: rgb(208, 208, 238);
+  --fw-navbar: 700;
+  --fw-title: 800;
+  --fw-text: 600;
 }
 
 *{
@@ -11,7 +16,7 @@
 }
 
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Manrope', sans-serif;
   background: rgba(231, 231, 231, 0.342);
 }
 

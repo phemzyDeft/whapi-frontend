@@ -1,4 +1,15 @@
 
+.navbar-toggler{
+  border: none;
+  transition: .5s ease-in;
+}
+
+.navbar-toggler:focus{
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
 .navbar .logo{
   display: flex;
   align-items: center;
@@ -22,4 +33,6 @@
 
 .navbar-nav .nav-item{
   padding-right: 1rem;
+  padding: .5rem;
+  font-weight: var(--fw-navbar);
 }
