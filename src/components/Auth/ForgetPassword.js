@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import './Auth.css';
 
 function ForgetPassword(props) {
-  return (
+  return (  
 <div class="modal fade .show" id="forgetPassword" tabindex="-1" role="dialog" aria-labelledby=".exampleModalCenterTitle" aria-modal="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">

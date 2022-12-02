@@ -1,3 +1,16 @@
+
+.home-banner-content h1{
+    font-weight: var(--fw-text);
+}
+
+.home-banner-content p{
+    font-weight: var(--fw-text);
+}
+
+.home-banner-content .signup-btn{
+    font-weight: var(--fw-text);
+}
+
 .img-fluid{
     cursor: pointer;
     transition: .5s ease;
