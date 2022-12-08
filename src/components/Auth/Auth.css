@@ -19,3 +19,11 @@ input::placeholder{
     font-size: 12px;
     font-weight: var(--fw-text);
 }
+
+.toggle__btn{
+    top: 1.5rem;
+    right: 1.2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}

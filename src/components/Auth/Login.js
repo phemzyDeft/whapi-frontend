@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Auth.css";
+import { BiShowAlt } from "react-icons/bi";
+import { BiHide } from "react-icons/bi";
 
 function Login(props) {
+  const [passwordShow, setpasswordShow] = useState(false);
+
+  const passwordToggle = () => {
+    setpasswordShow(!passwordShow);
+  };
+
   return (
     <div
       class="modal fade .show"
@@ -42,16 +50,19 @@ function Login(props) {
                   class="form-control"
                   placeholder="enter email here"
                 />
-              </div>
-              <div class="form-group">
+            </div>
+              <div class="form-group position-relative">
                 <label for="password">Password</label>
                 <input
-                  type="password"
+                  type={passwordShow ? "text" : "password"}
                   class="form-control"
                   placeholder="enter password here"
                   minLength="6"
                   maxLength="20"
                 />
+                <span onClick={passwordToggle} className="toggle__btn position-absolute">
+                  {passwordShow ? <BiHide /> : <BiShowAlt />}
+                </span>
               </div>
               <div class="form-group py-2">
                 <button
