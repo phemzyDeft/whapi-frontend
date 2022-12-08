@@ -11,20 +11,11 @@
 
 label{
     font-size: 12px;
-}
-
-input{
-    box-shadow: none;
+    font-weight: var(--fw-text);
 }
 
 input::placeholder{
     padding: 1rem 0;
-    font-size: 13px;
-}
-
-input:focus{
-    outline: none;
-    font-size: 13px;
-    border: 1px solid var(--primary-color);
-    box-shadow: none;
+    font-size: 12px;
+    font-weight: var(--fw-text);
 }

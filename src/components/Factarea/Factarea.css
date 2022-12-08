@@ -1,0 +1,23 @@
+
+.fact-area{
+  /* margin: 0 1rem; */
+  /* box-shadow: 5px 5px 10px; */
+}
+
+
+.fact-area{
+  line-height: 1px;
+  background-image: url('../../assets/img/peakpx.jpg');
+}
+
+.fact-area h2{
+  font-weight: var(--fw-title);
+  font-size: 4.5rem;
+  letter-spacing: -.4rem;
+}
+
+.fact-area p{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
